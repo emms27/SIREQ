@@ -1,0 +1,201 @@
+/** Paging Facebook
+.paging {
+	margin-top: 1em;
+	clear:both;
+	margin-right:1px; 
+}
+
+.paging .current,
+.paging .disabled,
+.paging a {
+        border:solid 1px #9aafe5;
+	background:#FFFFFF; 
+	color:#0e509e;
+	font-weight:bold; 
+	display:block; 
+	float:left; 
+	padding:4px 6px;
+	text-decoration:none;
+}
+
+.paging > span {
+        border:0; 
+	margin-right:3px; 
+	padding:0; 
+	font-size:11px; 
+	list-style:none;
+	float:left; 
+	display: inline-block;
+}
+.paging > span:hover {
+       border:solid 1px #0e509e; 
+
+}
+.paging > span:link,
+.paging > span:visited   { color:#0e509e; display:block; float:left; padding:3px 6px; text-decoration:none; }
+
+.paging .next,
+.paging .prev{	font-weight:bold; border-left: 1px solid #ccc;}
+
+.paging .disabled {
+	border:solid 1px #DEDEDE; 
+	color:#888888; 
+	display:block; 
+	float:left; 
+	font-weight:bold; 
+	margin-right:2px; 
+	padding:3px 4px; 
+}
+
+.paging .disabled:hover {background: transparent;}
+
+.paging .current {
+        background:#2e6ab1; 
+	color:#FFFFFF; 
+	font-weight:bold; 
+	display:block; 
+	float:left; 
+	padding:4px 6px;
+	margin-right:2px; 
+}
+*/
+/* -------------------------------------------- */
+/* ------------- Pagination: Flickr ----------- */
+/* -------------------------------------------- */
+.paging {
+	font-family: 'Roboto';
+	font-size: 13px;
+	margin-top: 1em;
+	clear:both;
+	margin-right:1px; 
+	display:inline-block;
+}
+
+.paging .current,
+.paging .disabled,
+.paging a {
+	display:block; 
+	float:left; 
+	padding:10px 10px;
+	text-decoration:none;
+	color:red;
+	background-color:#fff;
+	border:1px solid #ddd;
+}
+
+.paging > span {
+        border:0; 
+	margin-right:3px; 
+	padding:0; 
+
+	list-style:none;
+	float:left; 
+	display: inline-block;
+	color:#337ab7;
+	background-color:#fff;
+
+}
+.paging > span:hover { border:solid 1px #0e509e; }
+.paging > span:link,
+.paging > span:visited {color:#0063e3; display:block; float:left; padding:6px 6px; text-decoration:none;}
+
+.paging .next,
+.paging .prev{font-weight:bold; border:solid 1px #FFFFFF; }
+
+.paging .disabled {
+	cursor:default;
+        color:#DEDEDE;
+	border:solid 1px #DEDEDE; 
+	display:block; 
+	float:left; 
+	font-weight:bold; 
+	padding:10px 10px; 
+}
+
+.paging .disabled:hover {background: transparent;}
+
+.paging .current {
+        background:#2e6ab1; 
+	color:#FFFFFF; 
+	font-weight:bold; 
+	display:block; 
+	float:left; 
+	margin-right:2px; 
+}
+
+/*
+
+-------------------------------------------- 
+------------- Pagination: Clean ------------ 
+ -------------------------------------------- 
+#pagination-clean li          { border:0; margin:0; padding:0; font-size:11px; list-style:none;  float:left; }
+/* savers #pagination-clean li,
+#pagination-clean a           { border-right:solid 1px #DEDEDE; margin-right:2px; }
+#pagination-clean .previous-off,
+#pagination-clean .next-off   { color:#888888; display:block; float:left; font-weight:bold; padding:3px 4px; }
+#pagination-clean .next a,
+#pagination-clean previous a  { border:none; font-weight:bold; }
+#pagination-clean .active     { color:#000000; font-weight:bold; display:block; float:left; padding:4px 6px;  border-right:solid 1px #DEDEDE; }
+#pagination-clean a:link,
+#pagination-clean a:visited   { color:#0e509e; display:block; float:left; padding:3px 6px; text-decoration:underline; }
+#pagination-clean a:hover     { text-decoration:none; }
+*/
+
+
+/** Notices and Errors **/
+.success,
+.message,
+.cake-error,
+.cake-debug,
+.notice,
+p.error {
+	background: #ffcc00;
+	background-repeat: repeat-x;
+	background-image: -moz-linear-gradient(top, #ffcc00, #E6B800);
+	background-image: -ms-linear-gradient(top, #ffcc00, #E6B800);
+	background-image: -webkit-gradient(linear, left top, left bottom, from(#ffcc00), to(#E6B800));
+	background-image: -webkit-linear-gradient(top, #ffcc00, #E6B800);
+	background-image: -o-linear-gradient(top, #ffcc00, #E6B800);
+	background-image: linear-gradient(top, #ffcc00, #E6B800);
+	text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+	border: 1px solid rgba(0, 0, 0, 0.2);
+	margin-bottom: 18px;
+	padding: 7px 14px;
+	color: #404040;
+	text-shadow: 0 1px 0 rgba(255, 255, 255, 0.5);
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	border-radius: 4px;
+	-webkit-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.25);
+	-moz-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.25);
+	box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.25);
+}
+
+form .error-message {
+	background: #c43c35;
+        font-family:Arial, Helvetica, sans-serif;
+        font-weight:bold;
+        font-size: 11px; 
+	-moz-border-radius: none;
+	-webkit-border-radius: none;
+	margin: 0;
+	padding: 4px;
+	color: #FFF;
+	-webkit-box-shadow: none;
+	-moz-box-shadow: none;
+	-ms-box-shadow: none;
+	-o-box-shadow: none;
+	box-shadow: none;
+	text-shadow: none;
+
+	border: 1px solid rgba(0, 0, 0, 0.5);
+	background-repeat: repeat-x;
+	background-image: -moz-linear-gradient(top, #ee5f5b, #c43c35);
+	background-image: -ms-linear-gradient(top, #ee5f5b, #c43c35);
+	background-image: -webkit-gradient(linear, left top, left bottom, from(#ee5f5b), to(#c43c35));
+	background-image: -webkit-linear-gradient(top, #ee5f5b, #c43c35);
+	background-image: -o-linear-gradient(top, #ee5f5b, #c43c35);
+	background-image: linear-gradient(top, #ee5f5b, #c43c35);
+	text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.3);
+
+}

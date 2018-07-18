@@ -1,0 +1,415 @@
+<?php
+ $datetoday = $this->Helpers->load('Dates');
+ $options=array('Expediente'=>'Expediente','Parte'=>'Parte'); 
+ $attributes=array('legend'=>false);
+ //$nordenes = $this->requestAction('OrdenPagos/notificacion/limit:20');
+ $ptipo=array('sexpediente'=>'Expediente','sparte'=>'Parte','sdeposito'=>'Depósito','sorden'=>'Orden de Pago');  
+ $options2 = array(
+    'label' => 'Buscar',
+    'class'=>'btn',
+    'div' => array('class' => 'input submit'));
+?>
+<h3 class="page-header page-header-top"><i class="fa fa-home"></i> Home</h3>
+<nav class="navbar navbar-default" role="navigation">
+  <div class="container-fluid">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header"><a class="navbar-brand" href="#"> Filtro de Busqueda</a></div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+     <?php  echo $this->Form->create('X',array('action'=>NULL,'class'=>'navbar-form navbar-left')); 
+  	echo $this->Form->input('toption', 
+                               array('options' => $ptipo,
+ 	 			     'label'=>false,
+				     'div'=>array("class"=>"form-group"),
+ 				     "class"=>"form-control"
+                                  ));
+        echo $this->Form->input('buscar', 
+				array('label'=>false,
+				      'id'=>'buscar',
+	 		              'type'=>'search',
+			   	      'placeholder'=>'Buscar',
+				      'style'=>'border:1px solid gray; width:450px;',
+				      'div'=>array("class"=>"form-group"),
+				      "class"=>"form-control",
+	                              'x-webkit-speech speech required onspeechchange'=>'startSearch();',
+                                      'autocapitalize'=>"on", 'autocomplete'=>"on",'autocorrect'=>"on",
+ 				      'autofocus')); 
+	  ?>
+
+        <button type="submit" id="loading-example-btn" class="btn btn-default" class="btn btn-primary" data-loading-text="Buscando.."><i class="fa fa-search"></i> Buscar</button>
+      <?php  echo $this->Form->end(); ?>
+     
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+</nav>
+
+<br><br>
+<div class="col-sm-3">
+<div class="dash-tile dash-tile-2x">
+<div class="dash-tile-header">
+<div class="dash-tile-options">
+</div>
+<i class="fa fa-exclamation-triangle"></i> Notificaciones
+</div>
+<div class="dash-tile-content">
+<div class="dash-tile-content-inner scrollable-tile-2x">
+<h5 class="page-header-sub">Hoy</h5>
+<?php  $nordenes = $this->requestAction('OrdenPagos/notificacion/limit:20'); foreach ($nordenes as $orden): ?>
+<div class="alert alert-info">
+<button type="button" class="close" data-dismiss="alert">×</button>
+<strong><?php
+         echo $this->Html->link('<i class="fa fa-barcode"></i> '.$orden['OrdenPago']['id'], 
+                                array('controller'=>'OrdenPagos','action'=>'view',$orden['OrdenPago']['id']),
+				array('title'=>'Ver Orden de Pago','escape' => false));  
+?></strong> <?php echo $orden['OrdenPago']['estado']; ?>
+</div>
+   <?php endforeach; ?>
+<!--
+<div class="alert alert-warning">
+<button type="button" class="close" data-dismiss="alert">×</button>
+<i class="fa fa-barcode"></i> <strong>Check out!</strong> Esta is a notification!
+</div>
+<div class="alert alert-success">
+<i class="fa fa-unlock"></i> <strong>Check out!</strong> This is a notification!
+</div>
+<div class="alert alert-danger">
+<button type="button" class="close" data-dismiss="alert">×</button>
+<i class="fa fa-bell-o"></i> <strong>Check out!</strong> This is a notification!
+</div>
+<div class="alert alert-info">
+<i class="fa fa-signal"></i> <strong>Check out!</strong> This is a notification!
+</div>
+<h5 class="page-header-sub">Yesterday</h5>
+<div class="alert alert-success">
+<button type="button" class="close" data-dismiss="alert">×</button>
+<i class="fa fa-barcode"></i> <strong>Check out!</strong> This is a notification!
+</div>
+<div class="alert alert-warning">
+<i class="fa fa-barcode"></i> <strong>Check out!</strong> This is a notification!
+</div>
+<div class="alert alert-info">
+<button type="button" class="close" data-dismiss="alert">×</button>
+<i class="fa fa-facebook"></i> <strong>Check out!</strong> This is a notification!
+</div>
+<div class="alert alert-danger">
+<i class="fa fa-align-justify"></i> <strong>Check out!</strong> This is a notification!
+</div>
+-->
+<h5 class="page-header-sub">Todas las Ordenes</h5>
+<div class="alert alert-success">
+<?php
+        echo $this->Html->link(
+		' clic para ver mas notificaciones',
+ 	        array('controller'=>'OrdenPagos','action'=>'notificacion'),
+                array('class'=>'menu12','escape' => false,'target' => '_self','title'=>'Ver más notificaciones'));
+     ?>
+</div>
+
+</div>
+</div>
+</div>
+</div>
+
+<div class="col-sm-3">
+<div class="dash-tile dash-tile-flower clearfix animation-pullDown">
+<div class="dash-tile-header">
+<div class="dash-tile-options">
+<div class="btn-group">
+<a href="javascript:void(0)" class="btn btn-default" data-toggle="tooltip" title="View new orders"><i class="fa fa-shopping-cart"></i></a>
+<a href="javascript:void(0)" class="btn btn-default" data-toggle="tooltip" title="Statistics"><i class="fa fa-bar-chart-o"></i></a>
+</div>
+</div>
+Mensajes
+</div>
+<div class="dash-tile-icon"><i class="fa fa-tags"></i></div>
+<div class="dash-tile-text">300k</div>
+</div>
+<div class="dash-tile dash-tile-fruit clearfix animation-pullDown">
+<div class="dash-tile-header">
+<div class="dash-tile-options">
+<a href="javascript:void(0)" class="btn btn-default" data-toggle="tooltip" title="View popular downloads"><i class="fa fa-asterisk"></i></a>
+</div>
+Ordenes Rechazadas
+</div>
+<div class="dash-tile-icon"><i class="fa fa-cloud-download"></i></div>
+<div class="dash-tile-text">360k</div>
+</div>
+</div>
+
+
+
+<div class="col-sm-3">
+<div class="dash-tile dash-tile-oil clearfix animation-pullDown">
+<div class="dash-tile-header">
+<div class="dash-tile-options">
+<div class="btn-group">
+<a href="javascript:void(0)" class="btn btn-default" data-toggle="tooltip" title="What's changed?"><i class="fa fa-fire"></i></a>
+<a href="javascript:void(0)" class="btn btn-default" data-toggle="tooltip" title="Share"><i class="fa fa-share-square-o"></i></a>
+</div>
+</div>
+Exp. Terminados
+</div>
+<div class="dash-tile-icon"><i class="fa fa-globe"></i></div>
+<div class="dash-tile-text">+90%</div>
+</div>
+<div class="dash-tile dash-tile-dark clearfix animation-pullDown">
+<div class="dash-tile-header">
+<div class="dash-tile-options">
+<a href="javascript:void(0)" class="btn btn-default" data-toggle="tooltip" title="Monthly report"><i class="fa fa-bar-chart-o"></i></a>
+</div>
+Server Downtime
+</div>
+<div class="dash-tile-icon"><i class="fa fa-hdd-o"></i></div>
+<div class="dash-tile-text">0.1%</div>
+</div>
+</div>
+
+
+
+<div class="col-sm-3">
+<div class="dash-tile dash-tile-balloon clearfix animation-pullDown">
+<div class="dash-tile-header">
+<div class="dash-tile-options">
+<a href="javascript:void(0)" class="btn btn-default" data-toggle="tooltip" title="Manage subscribers"><i class="fa fa-cog"></i></a>
+</div>
+RSS Subscribers
+</div>
+<div class="dash-tile-icon"><i class="fa fa-rss"></i></div>
+<div class="dash-tile-text">160k</div>
+</div>
+<div class="dash-tile dash-tile-doll clearfix animation-pullDown">
+<div class="dash-tile-header">
+<div class="dash-tile-options">
+<a href="javascript:void(0)" class="btn btn-default" data-toggle="tooltip" title="Open tickets"><i class="fa fa-file-o"></i></a>
+</div>
+Total Tickets
+</div>
+<div class="dash-tile-icon"><i class="fa fa-wrench"></i></div>
+<div class="dash-tile-text">1.5k</div>
+</div>
+</div>
+
+<br><br>
+<?php
+  if (isset($this->data['X']['toption']) && isset($this->data['X']['buscar'])){
+   $dradio=$this->data['X']['toption'];   
+   $dsearch=$this->data['X']['buscar']; 
+   if ($dradio=='sorden'){
+    		   $ordenes = $this->requestAction('OrdenPagos/index/'.$dradio.':'.$dsearch);
+                   $modelo="OrdenPago";
+                   $titulo='Orden de Pago';
+		   $encabezado= $this->Html->tableHeaders(
+			       array('#', 
+			             '<i class="fa fa-file-text-o"></i> Orden de Pago',
+			             '<i class="fa fa-file-text-o"></i> Expediente',
+			             '<i class="fa fa-user"></i> Beneficiario',
+			             '<i class="fa fa-money"></i> Monto',
+			             '<i class="fa fa-bolt"></i> Status',
+				     '<i class="fa fa-bolt"></i> Acci&oacute;n'
+		   )); 
+?>
+<h2><?php echo $titulo; ?></h2>
+<table id="example-datatables" class="table table-striped table-bordered table-hover">
+ <?php  echo $encabezado;   $d=1; foreach ($ordenes as $ficha): ?>
+     <tr>
+      <td><?php echo $d; ?></td>
+      <td><?php echo $ficha[$modelo]['id']; ?></td>
+      <td>
+          <?php 
+            echo $this->Html->link($ficha[$modelo]['htsjpexpediente_id'],    	  	                   
+                array('controller'=>'Expedientes','action' => 'view',$ficha[$modelo]['htsjpexpediente_id']), 
+		array('escape' => false)); 
+          ?>
+      </td>
+      <td>
+          <?php 
+            echo $this->Html->link($ficha['Involucrado']['namefull'],	  	                   
+                array('controller'=>'Involucrados','action' => 'view',$ficha['Involucrado']['id']), 
+		array('escape' => false)); 
+          ?>
+      </td>
+      <td><?php echo $this->Number->currency($ficha[$modelo]['importe'], '$'); ?></td>
+      <td><?php echo $ficha[$modelo]['estado']; ?></td>
+      <td>
+ <div class="btn-group">
+	       <?php
+		echo $this->Html->link(_(''), 
+                array('controller'=>'OrdenPagos','action' => 'view',$ficha[$modelo]['id']),
+		array('class'=>'btn btn-xs btn-info fa fa-search',"data-toggle"=>"tooltip","title"=>"Details")
+               );
+
+	       ?>
+      </div>
+     </td>
+    </tr>
+    <?php $d++; endforeach; ?>	
+</table>
+<?php } else if ($dradio=='sdeposito'){ 
+		   $ficha = $this->requestAction('Depositos/index/'.$dradio.':'.$dsearch);
+                   $modelo="Deposito";
+                   $titulo='Depósitos';
+		   $encabezado=$this->Html->tableHeaders(
+			       array('#', 
+			             '<i class="fa fa-file-text-o"></i> Referencia',
+			             '<i class="fa fa-file-text-o"></i>  Expediente',
+			             '<i class="fa fa-user"></i> Beneficiario',
+			             '<i class="fa fa-money"></i> Monto',
+			             '<i class="fa fa-clock-o"></i> Juzgado',
+			             '<i class="fa fa-clock-o"></i> Tribunal',
+			             '<i class="fa fa-bolt"></i> Estado',
+				     '<i class="fa fa-bolt"></i> Status',
+				     '<i class="fa fa-bolt"></i> Acci&oacute;n')); 
+?>
+<h2><?php echo $titulo; ?></h2>
+<table id="example-datatables" class="table table-striped table-bordered table-hover">
+ <?php  echo $encabezado; $d=1; foreach ($ficha as $ficha):
+      $idestado='divestado_'.$ficha[$modelo]['id'];
+      $iddeposito='editable'.$d;
+ ?>
+    <tr>
+     <td><?php echo $d; ?></td>
+     <td><?php echo $ficha[$modelo]['id'];  ?></td>
+     <td>
+          <?php 
+            echo $this->Html->link($ficha[$modelo]['htsjpexpediente_id'],    	  	                   
+                array('controller'=>'Expedientes','action' => 'view',$ficha[$modelo]['htsjpexpediente_id']), 
+		array('escape' => false)); 
+          ?>
+     </td>
+     <td><?php echo $ficha['Involucrado']['namefull']; ?></td>
+     <td><?php echo $this->Number->currency($ficha[$modelo]['importe'], '$'); ?></td>
+     <td><?php echo $ficha[$modelo]['fecha_juzgado']; ?></td>
+     <td><?php echo $ficha[$modelo]['fecha_tribunal']; ?></td>
+<?php
+  $class='label label-default';
+  switch($ficha['Deposito']['estado']){
+   case "En Juzgado": $class='label label-warning';    break;
+   case "En DDFM":    $class='label label-success'; break;
+   case "Cancelada":  $class="label label-danger";  break;
+  }  
+   ?>
+     <td><span class="<?php echo $class; ?>"><?php echo $ficha[$modelo]['estado']; ?></span></td>	
+     <td><?php echo $ficha[$modelo]['status']; ?></td>
+     <td>
+      <div class="btn-group">
+	       <?php
+		echo $this->Html->link(_(''), 
+                        array('controller'=>'Depositos','action' => 'view', $ficha[$modelo]['id']), 
+			array('class'=>'btn btn-xs btn-info fa fa-search',"data-toggle"=>"tooltip","title"=>"Details")
+               );
+
+	       ?>
+      </div>
+        </td>
+    </tr>
+    <?php $d++; endforeach; ?>
+</table>
+<?php } else if ($dradio=='sparte'){ 
+    		   $parte = $this->requestAction('Involucrados/index/'.$dradio.':'.$dsearch);
+                   $modelo="Involucrado";
+                   $titulo='Partes';
+		   $encabezado=$this->Html->tableHeaders(
+			       array('#', 
+			             '<i class="fa fa-file-text-o"></i> Expediente',
+			             '<i class="fa fa-user"></i>  Nombre',
+			             'Núm. Identificación',
+			             '<i class="fa fa-tasks"></i> Tipo',
+			             '<i class="fa fa-tasks"></i> Fichas / Orden de Pago',
+				     '<i class="fa fa-bolt"></i> Acci&oacute;n'
+		   )); 
+?>
+<h2><?php echo $titulo; ?></h2>
+<table id="example-datatables" class="table table-striped table-bordered table-hover">
+    <?php  echo $encabezado;  $p=1; foreach ($parte as $involucrado): ?>
+    <tr>
+   	<td><?php echo $p; ?></td>
+        <td>
+          <?php 
+            echo $this->Html->link($involucrado[$modelo]['htsjpexpediente_id'],    	  	                   
+                           array('controller'=>'Expedientes',
+				 'action' => 'view',$involucrado[$modelo]['htsjpexpediente_id']
+                                ), 
+				array('escape' => false)); 
+          ?>
+        </td>
+        <td><?php echo $involucrado['Involucrado']['namefull']; ?> </td>
+	<td><?php echo $involucrado['Involucrado']['nidentificacion']; ?></td>
+	<td><?php echo $involucrado['Involucrado']['tusuario']; ?></td>   
+	<td><?php 
+           if ($involucrado['Involucrado']['tusuario']=="Depositante"){
+  echo '<select name="fichas" size="1" ><optgroup label="Fichas Bancarias">';
+   foreach ($involucrado['Ficha'] as $ficha):
+    echo '<option value="'.$ficha['id'].'1">'.$ficha['id'].'</option>';
+  endforeach;
+  echo '</optgroup></select>';} else {
+  echo '<select name="orden" size="1" ><optgroup label="Ordenes de Pago">';
+   foreach ($involucrado['OrdenPago'] as $ficha):
+    echo '<option value="'.$ficha['id'].'1">'.$ficha['id'].'</option>';
+  endforeach;
+  echo '</select>';
+           }
+            ?>
+        </td>
+        <td>
+ <div class="btn-group">
+	       <?php
+		echo $this->Html->link(_(''), 
+                        array('controller'=>'Involucrados','action' => 'view',$involucrado['Involucrado']['id']), 
+			array('class'=>'btn btn-xs btn-info fa fa-search',"data-toggle"=>"tooltip","title"=>"Details")
+               );
+
+	       ?>
+      </div>
+
+        </td>       
+    </tr>
+    <?php $p++; endforeach; ?>
+</table>
+<?php } else if ($dradio=='sexpediente'){ 
+    		   $expediente = $this->requestAction('Expedientes/index/'.$dradio.':'.$dsearch);
+                   $modelo="Expediente";
+                   $titulo='Expedientes';
+		   $encabezado=$this->Html->tableHeaders(
+			       array('#', 
+			             '<i class="fa fa-file-text-o"></i> Expediente',
+			             '<i class="fa fa-file-text-o"></i>  Exp. Procedente',
+			             '<i class="fa fa-legal"></i> Juzgado',
+			             '<i class="fa fa-tasks"></i> Materia',
+			             '<i class="fa fa-clock-o"></i> Creación',
+				     '<i class="fa fa-clock-o"></i> Actualización'
+		            )); 
+?>
+<h2><?php echo $titulo; ?></h2>
+<table id="example-datatables" class="table table-striped table-bordered table-hover">
+ <?php  echo $encabezado;   $e=1; foreach ($expediente as $expediente): 
+      //$rexp=$expediente['Expediente']['id'];
+      //$nexpc1=substr($rexp, 4,-4); 
+      //$nexpc2=substr($rexp, 8); 
+    ?>
+    <tr>
+   	<td><?php echo $e; ?></td>
+   	<td><?php echo $expediente['Expediente']['id']; ?></td>
+        <td><?php echo $expediente['Expediente']['htsjpexpediente_id'];  ?></td>
+        <td><?php echo $expediente['Juzgado']['descripcion']; ?></td>
+        <td><?php echo $expediente['Materia']['descripcion']; ?></td>
+        <td><?php echo $expediente['Expediente']['fecha_update']; ?></td>
+        <td>
+         <div class="btn-group">
+	       <?php
+		echo $this->Html->link(_(''), 
+	                array('controller'=>'Expedientes','action' => 'view',$expediente['Expediente']['id']), 
+			array('class'=>'btn btn-xs btn-info fa fa-search',"data-toggle"=>"tooltip","title"=>"Details")
+               );
+		echo $this->Html->link(_(''), 
+                array('controller'=>'Expedientes','action' => 'expediente_pdf',$expediente['Expediente']['id']), 
+	        array('class'=>'btn btn-xs btn-success fa fa-print',"data-toggle"=>"tooltip","title"=>"Imprimir")
+               );
+
+	       ?>
+         </div>      
+        </td>
+    </tr>
+    <?php $e++; endforeach; ?>
+</table>
+<?php }} ?>

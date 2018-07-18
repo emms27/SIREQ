@@ -1,0 +1,191 @@
+<?php 
+/**
+ * View alta almacenamiento de Depositos.
+ * @version 1.0
+ * @author Emmanuel Sanchez Carreon
+ * @email  esanchez@htsjpuebla.gob.mx
+ * @email2 carreon.emmanuel@gmail.com
+ */
+ $datetoday = $this->Helpers->load('Dates');
+ if (($userid['filename']=='') || ($userid['filename']==NULL)) $foto='user.jpg'; else $foto=$userid['filename'];
+?>
+<ul id="nav-info" class="clearfix">
+<li>
+<?php echo $this->Html->link('', 
+                                array('controller'=>'pages','action'=>'home'),
+				array('title'=>'Inicio','escape' => false,'class'=>'fa fa-home')); ?>
+</li>
+<li class="active">
+<?php
+         echo $this->Html->link('Dashboard', 
+                                array('controller'=>'pages','action'=>'dashboard'),
+				array('title'=>'dashboard','escape' => false));
+?>
+</li>
+</ul>
+
+<h3 class="page-header page-header-top">Dashboard <small>.</small></h3>
+
+<div class="row">
+<div class="col-md-5 col-md-offset-2">
+<div class="dash-tile dash-tile-balloon no-opacity">
+<div class="dash-tile-header"><i class="fa fa-user"></i> <?php 
+         echo $this->Html->link('L.I. Emmanuel Sánchez Carreón',
+                                   array('controller'=>'Users','action'=>'view/'.$userid['id']),
+				   array('title'=>'avatar','escape' => false));
+     ?> 
+</div>
+<div class="dash-tile-content">
+<div class="dash-tile-content-inner-fluid dash-tile-content-light content-text clearfix">
+
+<?php 
+   echo $this->Html->image("uploads/user/filename/".$foto,array("class"=>"pull-left","width"=>"120px","height"=>"150px","border"=>"0"));
+     ?>
+<p><i class="fa fa-phone"></i>&nbsp;&nbsp;&nbsp; 229.66.00 ext 5203</p>
+<p><i class="fa fa-mobile"></i>&nbsp;&nbsp;&nbsp;  2224.02.54.08</p>
+<p><i class="fa fa-envelope"></i>&nbsp;&nbsp;&nbsp;esanchez@htsjpuebla.gob.mx</p>
+<p><i class="fa fa-envelope"></i>&nbsp;&nbsp;&nbsp;carreon.emmanuel@gmail.com</p>
+</div>
+</div>
+</div>
+</div>
+<div class="col-md-3">
+<div class="dash-tile dash-tile-leaf no-opacity">
+<div class="dash-tile-header"><i class="fa fa-magic"></i> Sistemas Desarrollados</div>
+<div class="dash-tile-content">
+<div class="dash-tile-content-inner-fluid dash-tile-content-light">
+<ul class="fa-ul">
+<li><i class="fa fa-li fa-arrow-right"></i> <a href="javascript:void(0)">Centro Estatal de Mediación </a></li>
+<li><i class="fa fa-li fa-arrow-right"></i> <a href="javascript:void(0)">Asistencia</a></li>
+<li><i class="fa fa-li fa-arrow-right"></i> <a href="javascript:void(0)">Expediente Virtual - web</a></li>
+<li><i class="fa fa-li fa-arrow-right"></i> <a href="javascript:void(0)">SIDFM</a></li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+
+</div>
+
+<h6 style="float:right;"><?php echo $datetoday->fechaActual(); ?></h6>
+<ul class="nav-dash">
+<li>
+<a href="javascript:void(0)" data-toggle="tooltip" title="Users" class="animation-fadeIn">
+<i class="fa fa-user"></i>
+</a>
+</li>
+<li>
+<?php 
+ 	echo $this->Html->link('<i class="fa fa-folder-open"></i> <span class="badge badge-success">3</span>',
+                                   array('controller'=>'Contactenos','action'=>'notificacion'),
+				   array("data-toggle"=>"tooltip","class"=>"animation-fadeIn",'title'=>'Expedientes','escape' => false));
+          ?>
+</li>
+<li>
+<?php 
+ 	echo $this->Html->link('<i class="fa fa-users"></i> <span class="badge badge-success">3</span>',
+                                   array('controller'=>'Contactenos','action'=>'notificacion'),
+				   array("data-toggle"=>"tooltip","class"=>"animation-fadeIn",'title'=>'Involucrados','escape' => false));
+          ?>
+</li>
+<li>
+<?php 
+ 	echo $this->Html->link('<i class="fa fa-table"></i> <span class="badge badge-success">3</span>',
+                                   array('controller'=>'Contactenos','action'=>'notificacion'),
+				   array("data-toggle"=>"tooltip","class"=>"animation-fadeIn",'title'=>'Depositos','escape' => false));
+          ?>
+</li>
+<li>
+<?php 
+ 	echo $this->Html->link('<i class="fa fa-file-text-o"></i> <span class="badge badge-success">3</span>',
+                                   array('controller'=>'Contactenos','action'=>'notificacion'),
+				   array("data-toggle"=>"tooltip","class"=>"animation-fadeIn",'title'=>'Orden de Pago','escape' => false));
+          ?>
+</li>
+<li>
+<?php 
+ 	echo $this->Html->link('<i class="fa fa-clock-o"></i> <span class="badge badge-success">3</span>',
+                                   array('controller'=>'Contactenos','action'=>'notificacion'),
+				   array("data-toggle"=>"tooltip","class"=>"animation-fadeIn",'title'=>'Actividad','escape' => false));
+          ?>
+</li>
+<li>
+<?php 
+ 	echo $this->Html->link('<i class="fa fa-envelope"></i>',
+                                   array('controller'=>'Contactenos','action'=>'notificacion'),
+				   array("data-toggle"=>"tooltip","class"=>"animation-fadeIn",'title'=>'Mensajes','escape' => false));
+          ?>
+</li>
+<li>
+<?php 
+ 	echo $this->Html->link('<i class="fa fa-exclamation-triangle"></i>',
+                                   array('controller'=>'Contactenos','action'=>'notificacion'),
+				   array("data-toggle"=>"tooltip","class"=>"animation-fadeIn",'title'=>'Avisos','escape' => false));
+          ?>
+</li>
+<li>
+<?php 
+ 	echo $this->Html->link('<i class="fa fa-question-circle"></i>',
+                                   '/pages/help',
+				   array("data-toggle"=>"tooltip","class"=>"animation-fadeIn",'title'=>'Ayuda','escape' => false));
+          ?>
+</li>
+</ul>
+
+
+<div class="col-sm-3">
+<div class="dash-tile dash-tile-2x">
+<div class="dash-tile-header">
+<div class="dash-tile-options">
+<div class="btn-group">
+<a href="javascript:void(0)" class="btn btn-default dropdown-toggle" data-toggle="dropdown"><span class="caret"></span></a>
+<a href="javascript:void(0)" class="btn btn-info"><i class="fa fa-twitter"></i></a>
+<a href="javascript:void(0)" class="btn btn-success"><i class="fa fa-cog"></i></a>
+<ul class="dropdown-menu">
+<li><a href="javascript:void(0)">System</a></li>
+<li><a href="javascript:void(0)">Projects</a></li>
+<li><a href="javascript:void(0)">Users</a></li>
+</ul>
+</div>
+</div>
+Alerts
+</div>
+<div class="dash-tile-content">
+<div class="dash-tile-content-inner scrollable-tile-2x">
+<h5 class="page-header-sub">Today</h5>
+<div class="alert alert-warning">
+<button type="button" class="close" data-dismiss="alert">×</button>
+<i class="fa fa-barcode"></i> <strong>Check out!</strong> This is a notification!
+</div>
+<div class="alert alert-success">
+<i class="fa fa-unlock"></i> <strong>Check out!</strong> This is a notification!
+</div>
+<div class="alert alert-danger">
+<button type="button" class="close" data-dismiss="alert">×</button>
+<i class="fa fa-bell-o"></i> <strong>Check out!</strong> This is a notification!
+</div>
+<div class="alert alert-info">
+<i class="fa fa-signal"></i> <strong>Check out!</strong> This is a notification!
+</div>
+<h5 class="page-header-sub">Yesterday</h5>
+<div class="alert alert-success">
+<button type="button" class="close" data-dismiss="alert">×</button>
+<i class="fa fa-barcode"></i> <strong>Check out!</strong> This is a notification!
+</div>
+<div class="alert alert-warning">
+<i class="fa fa-barcode"></i> <strong>Check out!</strong> This is a notification!
+</div>
+<div class="alert alert-info">
+<button type="button" class="close" data-dismiss="alert">×</button>
+<i class="fa fa-facebook"></i> <strong>Check out!</strong> This is a notification!
+</div>
+<div class="alert alert-danger">
+<i class="fa fa-align-justify"></i> <strong>Check out!</strong> This is a notification!
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+
+

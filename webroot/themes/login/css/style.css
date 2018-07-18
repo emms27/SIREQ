@@ -1,0 +1,119 @@
+body {
+	background-color: #f9f9f9;
+}
+.btn-bwtheme {
+	padding: 6px 13px;
+	border-radius: 3px;
+	border-width: 0;
+	border-bottom-width: 2px;
+	border-top-color: transparent;
+	border-left-color: transparent;
+	border-right-color: transparent;
+}
+.btn-bwtheme:hover, .btn-bwtheme:focus {
+	border-top-color: transparent;
+	border-left-color: transparent;
+	border-right-color: transparent;
+}
+.form-control {
+	box-shadow: none;
+	-webkit-appearance: none;
+}
+.message-container {
+	margin-top: 15px;
+}
+.alert {
+	margin-bottom: 0px;
+}
+.box-container {
+	border-radius: 4px;
+	margin-top: 15px;
+}
+.box-header {
+	border-top-left-radius: 4px;
+	border-top-right-radius: 4px;
+	text-align: center;
+	color: #fff;
+	border: 1px solid transparent;
+	border-bottom: 0;
+	padding: 20px;
+}
+
+
+
+.box-login > .box-header {
+    background-color: #e65d19;
+    border-color: #e65d19;
+}
+
+.btn-primary {
+    background-color: #e65d19;
+    border-color: #e65d19;
+}
+
+a {
+    color: #e65d19;
+}
+
+.box-banner > .box-header {
+	background-color: #cf1f1f;
+	border-color: #b11b1b;
+}
+
+
+.box-header > h1 {
+	font-size: 22px;
+	margin-bottom: 5px;
+	margin-top: 0;
+}
+.box-header > h2 {
+	font-family: 'Lato Light', sans-serif;
+	font-size: 18px;
+	margin-bottom: 0;
+	margin-top: 5px;
+}
+.box-body {
+	border-bottom-left-radius: 4px;
+	border-bottom-right-radius: 4px;
+	background-color: #fff;
+	padding: 20px;
+	border: 1px solid #DDD;
+	border-top: none;
+}
+.box-body > p {
+	text-align: center;
+	margin-bottom: 20px;
+}
+.checkbox {
+	margin: 7px 0px;
+}
+@media (min-width: 768px) {
+	.col-sm-fix {
+		margin: 0 auto;
+		width: 468px;
+		float: none;
+	}
+}
+
+/* Footer */
+.navbar-inverse{
+    font-family: 'Roboto-Regular';
+    font-size:12px;
+		background: none repeat scroll 0 0 #e65d19;
+    /*background: none repeat scroll 0 0 #0065a4;*/
+    text-align:center;
+    color:#FFF;
+    height:2.3cm;
+    padding:3px;
+}
+
+/** Notices and Errors **/
+p {
+	clear: both;
+	color: #717073;
+	font-size: 14px;
+	font-weight: bold;
+	margin: 0 0 1em 0;
+	padding: 5px;
+	text-align: center;
+}
