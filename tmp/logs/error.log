@@ -202,3 +202,896 @@ Request URL: /systems/cakephp/SIREQ/css/fonts/Roboto/Roboto-Regular.ttf
 Stack Trace:
 #0 /Applications/XAMPP/xamppfiles/htdocs/systems/cakephp/SIREQ/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
 #1 {main}
+2018-07-18 14:49:02 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /systems/cakephp/SIREQ/css/fonts/Roboto/Roboto-Regular.woff
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/systems/cakephp/SIREQ/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2018-07-18 14:49:03 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /systems/cakephp/SIREQ/css/fonts/Roboto/Roboto-Regular.ttf
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/systems/cakephp/SIREQ/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2018-07-18 14:49:06 Error: [MissingControllerException] Controller class ThemesController could not be found.
+Exception Attributes: array (
+  'class' => 'ThemesController',
+  'plugin' => NULL,
+)
+Request URL: /systems/cakephp/SIREQ/themes/uadmin/1.6/js/plugins.1-6.js
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/systems/cakephp/SIREQ/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2018-07-18 14:49:06 Error: [MissingControllerException] Controller class ThemesController could not be found.
+Exception Attributes: array (
+  'class' => 'ThemesController',
+  'plugin' => NULL,
+)
+Request URL: /systems/cakephp/SIREQ/themes/uadmin/1.6/js/main.1-6-1.js
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/systems/cakephp/SIREQ/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2018-07-18 14:49:07 Error: [MissingViewException] View file "Pages/img/favicon.ico.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Pages/img/favicon.ico.ctp',
+)
+Request URL: /systems/cakephp/SIREQ/pages/img/favicon.ico
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/systems/cakephp/lib/Cake/View/View.php(470): View->_getViewFileName('img/favicon.ico')
+#1 /Applications/XAMPP/xamppfiles/htdocs/systems/cakephp/lib/Cake/Controller/Controller.php(960): View->render('img/favicon.ico', NULL)
+#2 /Applications/XAMPP/xamppfiles/htdocs/systems/cakephp/SIREQ/Controller/PagesController.php(80): Controller->render('img/favicon.ico')
+#3 [internal function]: PagesController->display('img', 'favicon.ico')
+#4 /Applications/XAMPP/xamppfiles/htdocs/systems/cakephp/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#5 /Applications/XAMPP/xamppfiles/htdocs/systems/cakephp/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#6 /Applications/XAMPP/xamppfiles/htdocs/systems/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest))
+#7 /Applications/XAMPP/xamppfiles/htdocs/systems/cakephp/SIREQ/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2018-07-18 14:49:09 Error: [MissingViewException] View file "Pages/img/favicon.ico.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Pages/img/favicon.ico.ctp',
+)
+Request URL: /systems/cakephp/SIREQ/pages/img/favicon.ico
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/systems/cakephp/lib/Cake/View/View.php(470): View->_getViewFileName('img/favicon.ico')
+#1 /Applications/XAMPP/xamppfiles/htdocs/systems/cakephp/lib/Cake/Controller/Controller.php(960): View->render('img/favicon.ico', NULL)
+#2 /Applications/XAMPP/xamppfiles/htdocs/systems/cakephp/SIREQ/Controller/PagesController.php(80): Controller->render('img/favicon.ico')
+#3 [internal function]: PagesController->display('img', 'favicon.ico')
+#4 /Applications/XAMPP/xamppfiles/htdocs/systems/cakephp/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#5 /Applications/XAMPP/xamppfiles/htdocs/systems/cakephp/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#6 /Applications/XAMPP/xamppfiles/htdocs/systems/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest))
+#7 /Applications/XAMPP/xamppfiles/htdocs/systems/cakephp/SIREQ/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2018-07-18 14:49:11 Error: [MissingViewException] View file "Pages/img/favicon.ico.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Pages/img/favicon.ico.ctp',
+)
+Request URL: /systems/cakephp/SIREQ/pages/img/favicon.ico
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/systems/cakephp/lib/Cake/View/View.php(470): View->_getViewFileName('img/favicon.ico')
+#1 /Applications/XAMPP/xamppfiles/htdocs/systems/cakephp/lib/Cake/Controller/Controller.php(960): View->render('img/favicon.ico', NULL)
+#2 /Applications/XAMPP/xamppfiles/htdocs/systems/cakephp/SIREQ/Controller/PagesController.php(80): Controller->render('img/favicon.ico')
+#3 [internal function]: PagesController->display('img', 'favicon.ico')
+#4 /Applications/XAMPP/xamppfiles/htdocs/systems/cakephp/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#5 /Applications/XAMPP/xamppfiles/htdocs/systems/cakephp/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#6 /Applications/XAMPP/xamppfiles/htdocs/systems/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest))
+#7 /Applications/XAMPP/xamppfiles/htdocs/systems/cakephp/SIREQ/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2018-07-18 14:49:12 Error: [MissingViewException] View file "Pages/img/favicon.ico.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Pages/img/favicon.ico.ctp',
+)
+Request URL: /systems/cakephp/SIREQ/pages/img/favicon.ico
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/systems/cakephp/lib/Cake/View/View.php(470): View->_getViewFileName('img/favicon.ico')
+#1 /Applications/XAMPP/xamppfiles/htdocs/systems/cakephp/lib/Cake/Controller/Controller.php(960): View->render('img/favicon.ico', NULL)
+#2 /Applications/XAMPP/xamppfiles/htdocs/systems/cakephp/SIREQ/Controller/PagesController.php(80): Controller->render('img/favicon.ico')
+#3 [internal function]: PagesController->display('img', 'favicon.ico')
+#4 /Applications/XAMPP/xamppfiles/htdocs/systems/cakephp/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#5 /Applications/XAMPP/xamppfiles/htdocs/systems/cakephp/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#6 /Applications/XAMPP/xamppfiles/htdocs/systems/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest))
+#7 /Applications/XAMPP/xamppfiles/htdocs/systems/cakephp/SIREQ/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2018-07-18 14:49:13 Error: [MissingViewException] View file "Pages/img/favicon.ico.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Pages/img/favicon.ico.ctp',
+)
+Request URL: /systems/cakephp/SIREQ/pages/img/favicon.ico
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/systems/cakephp/lib/Cake/View/View.php(470): View->_getViewFileName('img/favicon.ico')
+#1 /Applications/XAMPP/xamppfiles/htdocs/systems/cakephp/lib/Cake/Controller/Controller.php(960): View->render('img/favicon.ico', NULL)
+#2 /Applications/XAMPP/xamppfiles/htdocs/systems/cakephp/SIREQ/Controller/PagesController.php(80): Controller->render('img/favicon.ico')
+#3 [internal function]: PagesController->display('img', 'favicon.ico')
+#4 /Applications/XAMPP/xamppfiles/htdocs/systems/cakephp/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#5 /Applications/XAMPP/xamppfiles/htdocs/systems/cakephp/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#6 /Applications/XAMPP/xamppfiles/htdocs/systems/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest))
+#7 /Applications/XAMPP/xamppfiles/htdocs/systems/cakephp/SIREQ/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2018-07-18 14:49:14 Error: [MissingViewException] View file "Pages/img/favicon.ico.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Pages/img/favicon.ico.ctp',
+)
+Request URL: /systems/cakephp/SIREQ/pages/img/favicon.ico
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/systems/cakephp/lib/Cake/View/View.php(470): View->_getViewFileName('img/favicon.ico')
+#1 /Applications/XAMPP/xamppfiles/htdocs/systems/cakephp/lib/Cake/Controller/Controller.php(960): View->render('img/favicon.ico', NULL)
+#2 /Applications/XAMPP/xamppfiles/htdocs/systems/cakephp/SIREQ/Controller/PagesController.php(80): Controller->render('img/favicon.ico')
+#3 [internal function]: PagesController->display('img', 'favicon.ico')
+#4 /Applications/XAMPP/xamppfiles/htdocs/systems/cakephp/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#5 /Applications/XAMPP/xamppfiles/htdocs/systems/cakephp/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#6 /Applications/XAMPP/xamppfiles/htdocs/systems/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest))
+#7 /Applications/XAMPP/xamppfiles/htdocs/systems/cakephp/SIREQ/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2018-07-18 14:49:14 Error: [MissingControllerException] Controller class ThemesController could not be found.
+Exception Attributes: array (
+  'class' => 'ThemesController',
+  'plugin' => NULL,
+)
+Request URL: /systems/cakephp/SIREQ/themes/uadmin/1.6/js/main.1-6-1.js
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/systems/cakephp/SIREQ/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2018-07-18 14:49:14 Error: [MissingControllerException] Controller class ThemesController could not be found.
+Exception Attributes: array (
+  'class' => 'ThemesController',
+  'plugin' => NULL,
+)
+Request URL: /systems/cakephp/SIREQ/themes/uadmin/1.6/js/plugins.1-6.js
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/systems/cakephp/SIREQ/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2018-07-18 14:49:15 Error: [MissingControllerException] Controller class ThemesController could not be found.
+Exception Attributes: array (
+  'class' => 'ThemesController',
+  'plugin' => NULL,
+)
+Request URL: /systems/cakephp/SIREQ/themes/uadmin/1.6/js/main.1-6-1.js
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/systems/cakephp/SIREQ/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2018-07-18 14:49:15 Error: [MissingViewException] View file "Pages/img/favicon.ico.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Pages/img/favicon.ico.ctp',
+)
+Request URL: /systems/cakephp/SIREQ/pages/img/favicon.ico
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/systems/cakephp/lib/Cake/View/View.php(470): View->_getViewFileName('img/favicon.ico')
+#1 /Applications/XAMPP/xamppfiles/htdocs/systems/cakephp/lib/Cake/Controller/Controller.php(960): View->render('img/favicon.ico', NULL)
+#2 /Applications/XAMPP/xamppfiles/htdocs/systems/cakephp/SIREQ/Controller/PagesController.php(80): Controller->render('img/favicon.ico')
+#3 [internal function]: PagesController->display('img', 'favicon.ico')
+#4 /Applications/XAMPP/xamppfiles/htdocs/systems/cakephp/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#5 /Applications/XAMPP/xamppfiles/htdocs/systems/cakephp/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#6 /Applications/XAMPP/xamppfiles/htdocs/systems/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest))
+#7 /Applications/XAMPP/xamppfiles/htdocs/systems/cakephp/SIREQ/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2018-07-18 14:49:16 Error: [MissingViewException] View file "Pages/img/favicon.ico.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Pages/img/favicon.ico.ctp',
+)
+Request URL: /systems/cakephp/SIREQ/pages/img/favicon.ico
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/systems/cakephp/lib/Cake/View/View.php(470): View->_getViewFileName('img/favicon.ico')
+#1 /Applications/XAMPP/xamppfiles/htdocs/systems/cakephp/lib/Cake/Controller/Controller.php(960): View->render('img/favicon.ico', NULL)
+#2 /Applications/XAMPP/xamppfiles/htdocs/systems/cakephp/SIREQ/Controller/PagesController.php(80): Controller->render('img/favicon.ico')
+#3 [internal function]: PagesController->display('img', 'favicon.ico')
+#4 /Applications/XAMPP/xamppfiles/htdocs/systems/cakephp/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#5 /Applications/XAMPP/xamppfiles/htdocs/systems/cakephp/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#6 /Applications/XAMPP/xamppfiles/htdocs/systems/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest))
+#7 /Applications/XAMPP/xamppfiles/htdocs/systems/cakephp/SIREQ/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2018-07-18 14:49:17 Error: [MissingViewException] View file "Pages/img/favicon.ico.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Pages/img/favicon.ico.ctp',
+)
+Request URL: /systems/cakephp/SIREQ/pages/img/favicon.ico
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/systems/cakephp/lib/Cake/View/View.php(470): View->_getViewFileName('img/favicon.ico')
+#1 /Applications/XAMPP/xamppfiles/htdocs/systems/cakephp/lib/Cake/Controller/Controller.php(960): View->render('img/favicon.ico', NULL)
+#2 /Applications/XAMPP/xamppfiles/htdocs/systems/cakephp/SIREQ/Controller/PagesController.php(80): Controller->render('img/favicon.ico')
+#3 [internal function]: PagesController->display('img', 'favicon.ico')
+#4 /Applications/XAMPP/xamppfiles/htdocs/systems/cakephp/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#5 /Applications/XAMPP/xamppfiles/htdocs/systems/cakephp/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#6 /Applications/XAMPP/xamppfiles/htdocs/systems/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest))
+#7 /Applications/XAMPP/xamppfiles/htdocs/systems/cakephp/SIREQ/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2018-07-18 14:49:18 Error: [MissingViewException] View file "Pages/img/favicon.ico.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Pages/img/favicon.ico.ctp',
+)
+Request URL: /systems/cakephp/SIREQ/pages/img/favicon.ico
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/systems/cakephp/lib/Cake/View/View.php(470): View->_getViewFileName('img/favicon.ico')
+#1 /Applications/XAMPP/xamppfiles/htdocs/systems/cakephp/lib/Cake/Controller/Controller.php(960): View->render('img/favicon.ico', NULL)
+#2 /Applications/XAMPP/xamppfiles/htdocs/systems/cakephp/SIREQ/Controller/PagesController.php(80): Controller->render('img/favicon.ico')
+#3 [internal function]: PagesController->display('img', 'favicon.ico')
+#4 /Applications/XAMPP/xamppfiles/htdocs/systems/cakephp/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#5 /Applications/XAMPP/xamppfiles/htdocs/systems/cakephp/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#6 /Applications/XAMPP/xamppfiles/htdocs/systems/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest))
+#7 /Applications/XAMPP/xamppfiles/htdocs/systems/cakephp/SIREQ/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2018-07-18 14:49:19 Error: [MissingViewException] View file "Pages/img/favicon.ico.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Pages/img/favicon.ico.ctp',
+)
+Request URL: /systems/cakephp/SIREQ/pages/img/favicon.ico
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/systems/cakephp/lib/Cake/View/View.php(470): View->_getViewFileName('img/favicon.ico')
+#1 /Applications/XAMPP/xamppfiles/htdocs/systems/cakephp/lib/Cake/Controller/Controller.php(960): View->render('img/favicon.ico', NULL)
+#2 /Applications/XAMPP/xamppfiles/htdocs/systems/cakephp/SIREQ/Controller/PagesController.php(80): Controller->render('img/favicon.ico')
+#3 [internal function]: PagesController->display('img', 'favicon.ico')
+#4 /Applications/XAMPP/xamppfiles/htdocs/systems/cakephp/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#5 /Applications/XAMPP/xamppfiles/htdocs/systems/cakephp/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#6 /Applications/XAMPP/xamppfiles/htdocs/systems/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest))
+#7 /Applications/XAMPP/xamppfiles/htdocs/systems/cakephp/SIREQ/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2018-07-18 14:49:35 Error: [MissingViewException] View file "Pages/img/favicon.ico.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Pages/img/favicon.ico.ctp',
+)
+Request URL: /systems/cakephp/SIREQ/pages/img/favicon.ico
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/systems/cakephp/lib/Cake/View/View.php(470): View->_getViewFileName('img/favicon.ico')
+#1 /Applications/XAMPP/xamppfiles/htdocs/systems/cakephp/lib/Cake/Controller/Controller.php(960): View->render('img/favicon.ico', NULL)
+#2 /Applications/XAMPP/xamppfiles/htdocs/systems/cakephp/SIREQ/Controller/PagesController.php(80): Controller->render('img/favicon.ico')
+#3 [internal function]: PagesController->display('img', 'favicon.ico')
+#4 /Applications/XAMPP/xamppfiles/htdocs/systems/cakephp/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#5 /Applications/XAMPP/xamppfiles/htdocs/systems/cakephp/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#6 /Applications/XAMPP/xamppfiles/htdocs/systems/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest))
+#7 /Applications/XAMPP/xamppfiles/htdocs/systems/cakephp/SIREQ/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2018-07-18 14:49:36 Error: [MissingViewException] View file "Pages/img/favicon.ico.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Pages/img/favicon.ico.ctp',
+)
+Request URL: /systems/cakephp/SIREQ/pages/img/favicon.ico
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/systems/cakephp/lib/Cake/View/View.php(470): View->_getViewFileName('img/favicon.ico')
+#1 /Applications/XAMPP/xamppfiles/htdocs/systems/cakephp/lib/Cake/Controller/Controller.php(960): View->render('img/favicon.ico', NULL)
+#2 /Applications/XAMPP/xamppfiles/htdocs/systems/cakephp/SIREQ/Controller/PagesController.php(80): Controller->render('img/favicon.ico')
+#3 [internal function]: PagesController->display('img', 'favicon.ico')
+#4 /Applications/XAMPP/xamppfiles/htdocs/systems/cakephp/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#5 /Applications/XAMPP/xamppfiles/htdocs/systems/cakephp/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#6 /Applications/XAMPP/xamppfiles/htdocs/systems/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest))
+#7 /Applications/XAMPP/xamppfiles/htdocs/systems/cakephp/SIREQ/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2018-07-18 14:49:36 Error: [MissingViewException] View file "Pages/img/favicon.ico.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Pages/img/favicon.ico.ctp',
+)
+Request URL: /systems/cakephp/SIREQ/pages/img/favicon.ico
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/systems/cakephp/lib/Cake/View/View.php(470): View->_getViewFileName('img/favicon.ico')
+#1 /Applications/XAMPP/xamppfiles/htdocs/systems/cakephp/lib/Cake/Controller/Controller.php(960): View->render('img/favicon.ico', NULL)
+#2 /Applications/XAMPP/xamppfiles/htdocs/systems/cakephp/SIREQ/Controller/PagesController.php(80): Controller->render('img/favicon.ico')
+#3 [internal function]: PagesController->display('img', 'favicon.ico')
+#4 /Applications/XAMPP/xamppfiles/htdocs/systems/cakephp/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#5 /Applications/XAMPP/xamppfiles/htdocs/systems/cakephp/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#6 /Applications/XAMPP/xamppfiles/htdocs/systems/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest))
+#7 /Applications/XAMPP/xamppfiles/htdocs/systems/cakephp/SIREQ/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2018-07-18 14:49:38 Error: [MissingViewException] View file "Pages/img/favicon.ico.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Pages/img/favicon.ico.ctp',
+)
+Request URL: /systems/cakephp/SIREQ/pages/img/favicon.ico
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/systems/cakephp/lib/Cake/View/View.php(470): View->_getViewFileName('img/favicon.ico')
+#1 /Applications/XAMPP/xamppfiles/htdocs/systems/cakephp/lib/Cake/Controller/Controller.php(960): View->render('img/favicon.ico', NULL)
+#2 /Applications/XAMPP/xamppfiles/htdocs/systems/cakephp/SIREQ/Controller/PagesController.php(80): Controller->render('img/favicon.ico')
+#3 [internal function]: PagesController->display('img', 'favicon.ico')
+#4 /Applications/XAMPP/xamppfiles/htdocs/systems/cakephp/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#5 /Applications/XAMPP/xamppfiles/htdocs/systems/cakephp/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#6 /Applications/XAMPP/xamppfiles/htdocs/systems/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest))
+#7 /Applications/XAMPP/xamppfiles/htdocs/systems/cakephp/SIREQ/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2018-07-18 14:50:03 Error: [MissingControllerException] Controller class ThemesController could not be found.
+Exception Attributes: array (
+  'class' => 'ThemesController',
+  'plugin' => NULL,
+)
+Request URL: /systems/cakephp/SIREQ/themes/uadmin/1.6/js/plugins.1-6.js
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/systems/cakephp/SIREQ/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2018-07-18 14:50:03 Error: [MissingControllerException] Controller class ThemesController could not be found.
+Exception Attributes: array (
+  'class' => 'ThemesController',
+  'plugin' => NULL,
+)
+Request URL: /systems/cakephp/SIREQ/themes/uadmin/1.6/js/main.1-6-1.js
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/systems/cakephp/SIREQ/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2018-07-18 14:50:03 Error: [MissingControllerException] Controller class ThemesController could not be found.
+Exception Attributes: array (
+  'class' => 'ThemesController',
+  'plugin' => NULL,
+)
+Request URL: /systems/cakephp/SIREQ/themes/uadmin/1.6/js/plugins.1-6.js
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/systems/cakephp/SIREQ/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2018-07-18 14:50:04 Error: [MissingControllerException] Controller class ThemesController could not be found.
+Exception Attributes: array (
+  'class' => 'ThemesController',
+  'plugin' => NULL,
+)
+Request URL: /systems/cakephp/SIREQ/themes/uadmin/1.6/js/main.1-6-1.js
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/systems/cakephp/SIREQ/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2018-07-18 14:50:04 Error: [MissingControllerException] Controller class ThemesController could not be found.
+Exception Attributes: array (
+  'class' => 'ThemesController',
+  'plugin' => NULL,
+)
+Request URL: /systems/cakephp/SIREQ/themes/uadmin/1.6/js/img/favicon.ico
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/systems/cakephp/SIREQ/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2018-07-18 14:50:09 Error: [MissingControllerException] Controller class ThemesController could not be found.
+Exception Attributes: array (
+  'class' => 'ThemesController',
+  'plugin' => NULL,
+)
+Request URL: /systems/cakephp/SIREQ/themes/uadmin/1.6/js/main.1-6-1.js
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/systems/cakephp/SIREQ/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2018-07-18 14:50:10 Error: [MissingControllerException] Controller class ThemesController could not be found.
+Exception Attributes: array (
+  'class' => 'ThemesController',
+  'plugin' => NULL,
+)
+Request URL: /systems/cakephp/SIREQ/themes/uadmin/1.6/js/main.1-6-1.js
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/systems/cakephp/SIREQ/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2018-07-18 14:50:10 Error: [MissingControllerException] Controller class ThemesController could not be found.
+Exception Attributes: array (
+  'class' => 'ThemesController',
+  'plugin' => NULL,
+)
+Request URL: /systems/cakephp/SIREQ/themes/uadmin/1.6/js/plugins.1-6.js
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/systems/cakephp/SIREQ/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2018-07-18 14:50:10 Error: [MissingControllerException] Controller class ThemesController could not be found.
+Exception Attributes: array (
+  'class' => 'ThemesController',
+  'plugin' => NULL,
+)
+Request URL: /systems/cakephp/SIREQ/themes/uadmin/1.6/js/main.1-6-1.js
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/systems/cakephp/SIREQ/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2018-07-18 14:52:28 Error: [MissingControllerException] Controller class ThemesController could not be found.
+Exception Attributes: array (
+  'class' => 'ThemesController',
+  'plugin' => NULL,
+)
+Request URL: /systems/cakephp/SIREQ/themes/uadmin/1.6/js/plugins.1-6.js
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/systems/cakephp/SIREQ/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2018-07-18 14:52:28 Error: [MissingControllerException] Controller class ThemesController could not be found.
+Exception Attributes: array (
+  'class' => 'ThemesController',
+  'plugin' => NULL,
+)
+Request URL: /systems/cakephp/SIREQ/themes/uadmin/1.6/js/main.1-6-1.js
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/systems/cakephp/SIREQ/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2018-07-18 14:52:29 Error: [MissingControllerException] Controller class ThemesController could not be found.
+Exception Attributes: array (
+  'class' => 'ThemesController',
+  'plugin' => NULL,
+)
+Request URL: /systems/cakephp/SIREQ/themes/uadmin/1.6/js/plugins.1-6.js
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/systems/cakephp/SIREQ/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2018-07-18 14:52:29 Error: [MissingControllerException] Controller class ThemesController could not be found.
+Exception Attributes: array (
+  'class' => 'ThemesController',
+  'plugin' => NULL,
+)
+Request URL: /systems/cakephp/SIREQ/themes/uadmin/1.6/js/main.1-6-1.js
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/systems/cakephp/SIREQ/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2018-07-18 14:52:30 Error: [MissingViewException] View file "Pages/img/favicon.ico.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Pages/img/favicon.ico.ctp',
+)
+Request URL: /systems/cakephp/SIREQ/pages/img/favicon.ico
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/systems/cakephp/lib/Cake/View/View.php(470): View->_getViewFileName('img/favicon.ico')
+#1 /Applications/XAMPP/xamppfiles/htdocs/systems/cakephp/lib/Cake/Controller/Controller.php(960): View->render('img/favicon.ico', NULL)
+#2 /Applications/XAMPP/xamppfiles/htdocs/systems/cakephp/SIREQ/Controller/PagesController.php(80): Controller->render('img/favicon.ico')
+#3 [internal function]: PagesController->display('img', 'favicon.ico')
+#4 /Applications/XAMPP/xamppfiles/htdocs/systems/cakephp/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#5 /Applications/XAMPP/xamppfiles/htdocs/systems/cakephp/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#6 /Applications/XAMPP/xamppfiles/htdocs/systems/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest))
+#7 /Applications/XAMPP/xamppfiles/htdocs/systems/cakephp/SIREQ/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2018-07-18 14:52:40 Error: [MissingControllerException] Controller class ThemesController could not be found.
+Exception Attributes: array (
+  'class' => 'ThemesController',
+  'plugin' => NULL,
+)
+Request URL: /systems/cakephp/SIREQ/themes/uadmin/1.6/js/main.1-6-1.js
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/systems/cakephp/SIREQ/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2018-07-18 14:52:40 Error: [MissingControllerException] Controller class ThemesController could not be found.
+Exception Attributes: array (
+  'class' => 'ThemesController',
+  'plugin' => NULL,
+)
+Request URL: /systems/cakephp/SIREQ/themes/uadmin/1.6/js/plugins.1-6.js
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/systems/cakephp/SIREQ/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2018-07-18 14:52:40 Error: [MissingControllerException] Controller class ThemesController could not be found.
+Exception Attributes: array (
+  'class' => 'ThemesController',
+  'plugin' => NULL,
+)
+Request URL: /systems/cakephp/SIREQ/themes/uadmin/1.6/js/main.1-6-1.js
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/systems/cakephp/SIREQ/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2018-07-18 14:52:42 Error: [MissingViewException] View file "Pages/img/favicon.ico.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Pages/img/favicon.ico.ctp',
+)
+Request URL: /systems/cakephp/SIREQ/pages/img/favicon.ico
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/systems/cakephp/lib/Cake/View/View.php(470): View->_getViewFileName('img/favicon.ico')
+#1 /Applications/XAMPP/xamppfiles/htdocs/systems/cakephp/lib/Cake/Controller/Controller.php(960): View->render('img/favicon.ico', NULL)
+#2 /Applications/XAMPP/xamppfiles/htdocs/systems/cakephp/SIREQ/Controller/PagesController.php(80): Controller->render('img/favicon.ico')
+#3 [internal function]: PagesController->display('img', 'favicon.ico')
+#4 /Applications/XAMPP/xamppfiles/htdocs/systems/cakephp/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#5 /Applications/XAMPP/xamppfiles/htdocs/systems/cakephp/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#6 /Applications/XAMPP/xamppfiles/htdocs/systems/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest))
+#7 /Applications/XAMPP/xamppfiles/htdocs/systems/cakephp/SIREQ/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2018-07-18 14:52:46 Error: [MissingControllerException] Controller class ThemesController could not be found.
+Exception Attributes: array (
+  'class' => 'ThemesController',
+  'plugin' => NULL,
+)
+Request URL: /systems/cakephp/SIREQ/themes/uadmin/1.6/js/main.1-6-1.js
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/systems/cakephp/SIREQ/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2018-07-18 14:52:46 Error: [MissingControllerException] Controller class ThemesController could not be found.
+Exception Attributes: array (
+  'class' => 'ThemesController',
+  'plugin' => NULL,
+)
+Request URL: /systems/cakephp/SIREQ/themes/uadmin/1.6/js/plugins.1-6.js
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/systems/cakephp/SIREQ/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2018-07-18 14:52:47 Error: [MissingControllerException] Controller class ThemesController could not be found.
+Exception Attributes: array (
+  'class' => 'ThemesController',
+  'plugin' => NULL,
+)
+Request URL: /systems/cakephp/SIREQ/themes/uadmin/1.6/js/main.1-6-1.js
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/systems/cakephp/SIREQ/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2018-07-18 14:52:47 Error: [MissingViewException] View file "Pages/img/favicon.ico.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Pages/img/favicon.ico.ctp',
+)
+Request URL: /systems/cakephp/SIREQ/pages/img/favicon.ico
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/systems/cakephp/lib/Cake/View/View.php(470): View->_getViewFileName('img/favicon.ico')
+#1 /Applications/XAMPP/xamppfiles/htdocs/systems/cakephp/lib/Cake/Controller/Controller.php(960): View->render('img/favicon.ico', NULL)
+#2 /Applications/XAMPP/xamppfiles/htdocs/systems/cakephp/SIREQ/Controller/PagesController.php(80): Controller->render('img/favicon.ico')
+#3 [internal function]: PagesController->display('img', 'favicon.ico')
+#4 /Applications/XAMPP/xamppfiles/htdocs/systems/cakephp/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#5 /Applications/XAMPP/xamppfiles/htdocs/systems/cakephp/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#6 /Applications/XAMPP/xamppfiles/htdocs/systems/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest))
+#7 /Applications/XAMPP/xamppfiles/htdocs/systems/cakephp/SIREQ/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2018-07-18 14:52:59 Error: [MissingControllerException] Controller class ThemesController could not be found.
+Exception Attributes: array (
+  'class' => 'ThemesController',
+  'plugin' => NULL,
+)
+Request URL: /systems/cakephp/SIREQ/themes/uadmin/1.6/js/main.1-6-1.js
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/systems/cakephp/SIREQ/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2018-07-18 14:52:59 Error: [MissingControllerException] Controller class ThemesController could not be found.
+Exception Attributes: array (
+  'class' => 'ThemesController',
+  'plugin' => NULL,
+)
+Request URL: /systems/cakephp/SIREQ/themes/uadmin/1.6/js/main.1-6-1.js
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/systems/cakephp/SIREQ/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2018-07-18 14:53:14 Error: [MissingViewException] View file "Pages/img/favicon.ico.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Pages/img/favicon.ico.ctp',
+)
+Request URL: /systems/cakephp/SIREQ/pages/img/favicon.ico
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/systems/cakephp/lib/Cake/View/View.php(470): View->_getViewFileName('img/favicon.ico')
+#1 /Applications/XAMPP/xamppfiles/htdocs/systems/cakephp/lib/Cake/Controller/Controller.php(960): View->render('img/favicon.ico', NULL)
+#2 /Applications/XAMPP/xamppfiles/htdocs/systems/cakephp/SIREQ/Controller/PagesController.php(80): Controller->render('img/favicon.ico')
+#3 [internal function]: PagesController->display('img', 'favicon.ico')
+#4 /Applications/XAMPP/xamppfiles/htdocs/systems/cakephp/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#5 /Applications/XAMPP/xamppfiles/htdocs/systems/cakephp/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#6 /Applications/XAMPP/xamppfiles/htdocs/systems/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest))
+#7 /Applications/XAMPP/xamppfiles/htdocs/systems/cakephp/SIREQ/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2018-07-18 14:53:17 Error: [MissingViewException] View file "Pages/img/favicon.ico.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Pages/img/favicon.ico.ctp',
+)
+Request URL: /systems/cakephp/SIREQ/pages/img/favicon.ico
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/systems/cakephp/lib/Cake/View/View.php(470): View->_getViewFileName('img/favicon.ico')
+#1 /Applications/XAMPP/xamppfiles/htdocs/systems/cakephp/lib/Cake/Controller/Controller.php(960): View->render('img/favicon.ico', NULL)
+#2 /Applications/XAMPP/xamppfiles/htdocs/systems/cakephp/SIREQ/Controller/PagesController.php(80): Controller->render('img/favicon.ico')
+#3 [internal function]: PagesController->display('img', 'favicon.ico')
+#4 /Applications/XAMPP/xamppfiles/htdocs/systems/cakephp/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#5 /Applications/XAMPP/xamppfiles/htdocs/systems/cakephp/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#6 /Applications/XAMPP/xamppfiles/htdocs/systems/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest))
+#7 /Applications/XAMPP/xamppfiles/htdocs/systems/cakephp/SIREQ/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2018-07-18 14:54:09 Error: [MissingViewException] View file "Pages/img/favicon.ico.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Pages/img/favicon.ico.ctp',
+)
+Request URL: /systems/cakephp/SIREQ/pages/img/favicon.ico
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/systems/cakephp/lib/Cake/View/View.php(470): View->_getViewFileName('img/favicon.ico')
+#1 /Applications/XAMPP/xamppfiles/htdocs/systems/cakephp/lib/Cake/Controller/Controller.php(960): View->render('img/favicon.ico', NULL)
+#2 /Applications/XAMPP/xamppfiles/htdocs/systems/cakephp/SIREQ/Controller/PagesController.php(80): Controller->render('img/favicon.ico')
+#3 [internal function]: PagesController->display('img', 'favicon.ico')
+#4 /Applications/XAMPP/xamppfiles/htdocs/systems/cakephp/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#5 /Applications/XAMPP/xamppfiles/htdocs/systems/cakephp/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#6 /Applications/XAMPP/xamppfiles/htdocs/systems/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest))
+#7 /Applications/XAMPP/xamppfiles/htdocs/systems/cakephp/SIREQ/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2018-07-18 14:54:13 Error: [MissingViewException] View file "Pages/img/favicon.ico.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Pages/img/favicon.ico.ctp',
+)
+Request URL: /systems/cakephp/SIREQ/pages/img/favicon.ico
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/systems/cakephp/lib/Cake/View/View.php(470): View->_getViewFileName('img/favicon.ico')
+#1 /Applications/XAMPP/xamppfiles/htdocs/systems/cakephp/lib/Cake/Controller/Controller.php(960): View->render('img/favicon.ico', NULL)
+#2 /Applications/XAMPP/xamppfiles/htdocs/systems/cakephp/SIREQ/Controller/PagesController.php(80): Controller->render('img/favicon.ico')
+#3 [internal function]: PagesController->display('img', 'favicon.ico')
+#4 /Applications/XAMPP/xamppfiles/htdocs/systems/cakephp/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#5 /Applications/XAMPP/xamppfiles/htdocs/systems/cakephp/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#6 /Applications/XAMPP/xamppfiles/htdocs/systems/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest))
+#7 /Applications/XAMPP/xamppfiles/htdocs/systems/cakephp/SIREQ/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2018-07-18 21:28:49 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /systems/cakephp/SIREQ/css/fonts/Roboto/Roboto-Regular.woff
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/systems/cakephp/SIREQ/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2018-07-18 21:28:49 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /systems/cakephp/SIREQ/css/fonts/Roboto/Roboto-Regular.ttf
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/systems/cakephp/SIREQ/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2018-07-18 21:28:52 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /systems/cakephp/SIREQ/css/fonts/Roboto/Roboto-Regular.woff
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/systems/cakephp/SIREQ/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2018-07-18 21:28:53 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /systems/cakephp/SIREQ/css/fonts/Roboto/Roboto-Regular.ttf
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/systems/cakephp/SIREQ/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2018-07-18 21:28:57 Error: [MissingViewException] View file "Pages/img/favicon.ico.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Pages/img/favicon.ico.ctp',
+)
+Request URL: /systems/cakephp/SIREQ/pages/img/favicon.ico
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/systems/cakephp/lib/Cake/View/View.php(470): View->_getViewFileName('img/favicon.ico')
+#1 /Applications/XAMPP/xamppfiles/htdocs/systems/cakephp/lib/Cake/Controller/Controller.php(960): View->render('img/favicon.ico', NULL)
+#2 /Applications/XAMPP/xamppfiles/htdocs/systems/cakephp/SIREQ/Controller/PagesController.php(80): Controller->render('img/favicon.ico')
+#3 [internal function]: PagesController->display('img', 'favicon.ico')
+#4 /Applications/XAMPP/xamppfiles/htdocs/systems/cakephp/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#5 /Applications/XAMPP/xamppfiles/htdocs/systems/cakephp/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#6 /Applications/XAMPP/xamppfiles/htdocs/systems/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest))
+#7 /Applications/XAMPP/xamppfiles/htdocs/systems/cakephp/SIREQ/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2018-07-18 21:29:00 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /systems/cakephp/SIREQ/img/uploads/almacenproducts/filename/coca_light.jpg
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/systems/cakephp/SIREQ/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2018-07-18 21:29:00 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /systems/cakephp/SIREQ/img/uploads/almacenproducts/filename/220017.JPG
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/systems/cakephp/SIREQ/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2018-07-18 21:29:00 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /systems/cakephp/SIREQ/img/uploads/almacenproducts/filename/220031.JPG
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/systems/cakephp/SIREQ/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2018-07-18 21:29:01 Error: [MissingActionException] Action ProductsController::img() could not be found.
+Exception Attributes: array (
+  'controller' => 'ProductsController',
+  'action' => 'img',
+)
+Request URL: /systems/cakephp/SIREQ/Products/img/favicon.ico
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/systems/cakephp/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /Applications/XAMPP/xamppfiles/htdocs/systems/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(ProductsController), Object(CakeRequest))
+#2 /Applications/XAMPP/xamppfiles/htdocs/systems/cakephp/SIREQ/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2018-07-18 21:29:07 Error: [MissingActionException] Action InvoicesController::img() could not be found.
+Exception Attributes: array (
+  'controller' => 'InvoicesController',
+  'action' => 'img',
+)
+Request URL: /systems/cakephp/SIREQ/Invoices/img/favicon.ico
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/systems/cakephp/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /Applications/XAMPP/xamppfiles/htdocs/systems/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(InvoicesController), Object(CakeRequest))
+#2 /Applications/XAMPP/xamppfiles/htdocs/systems/cakephp/SIREQ/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2018-07-18 21:29:13 Error: [MissingActionException] Action RequisitionsController::img() could not be found.
+Exception Attributes: array (
+  'controller' => 'RequisitionsController',
+  'action' => 'img',
+)
+Request URL: /systems/cakephp/SIREQ/Requisitions/img/favicon.ico
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/systems/cakephp/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /Applications/XAMPP/xamppfiles/htdocs/systems/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(RequisitionsController), Object(CakeRequest))
+#2 /Applications/XAMPP/xamppfiles/htdocs/systems/cakephp/SIREQ/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2018-07-19 00:23:42 Error: [MissingControllerException] Controller class ThemesController could not be found.
+Exception Attributes: array (
+  'class' => 'ThemesController',
+  'plugin' => NULL,
+)
+Request URL: /systems/cakephp/SIREQ/themes/uadmin/2.1/img/jquery.chosen/chosen-sprite.png
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/systems/cakephp/SIREQ/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2018-07-19 00:23:42 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /systems/cakephp/SIREQ/js/Editores/CKEditor/ckeditor4.3.3standard/config.js?t=E1PE
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/systems/cakephp/SIREQ/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2018-07-19 00:23:42 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /systems/cakephp/SIREQ/js/Editores/CKEditor/ckeditor4.3.3standard/skins/moono/editor.css?t=E1PE
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/systems/cakephp/SIREQ/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2018-07-19 00:23:42 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /systems/cakephp/SIREQ/js/Editores/CKEditor/ckeditor4.3.3standard/lang/es.js?t=E1PE
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/systems/cakephp/SIREQ/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2018-07-19 00:23:47 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /systems/cakephp/SIREQ/js/Editores/CKEditor/ckeditor4.3.3standard/config.js?t=E1PE
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/systems/cakephp/SIREQ/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2018-07-19 00:23:47 Error: [MissingControllerException] Controller class ThemesController could not be found.
+Exception Attributes: array (
+  'class' => 'ThemesController',
+  'plugin' => NULL,
+)
+Request URL: /systems/cakephp/SIREQ/themes/uadmin/2.1/img/jquery.chosen/chosen-sprite.png
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/systems/cakephp/SIREQ/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2018-07-19 00:23:47 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /systems/cakephp/SIREQ/js/Editores/CKEditor/ckeditor4.3.3standard/skins/moono/editor.css?t=E1PE
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/systems/cakephp/SIREQ/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2018-07-19 00:23:47 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /systems/cakephp/SIREQ/js/Editores/CKEditor/ckeditor4.3.3standard/lang/es.js?t=E1PE
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/systems/cakephp/SIREQ/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2018-07-19 00:23:47 Error: [MissingActionException] Action RequisitionsController::img() could not be found.
+Exception Attributes: array (
+  'controller' => 'RequisitionsController',
+  'action' => 'img',
+)
+Request URL: /systems/cakephp/SIREQ/requisitions/img/favicon.ico
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/systems/cakephp/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /Applications/XAMPP/xamppfiles/htdocs/systems/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(RequisitionsController), Object(CakeRequest))
+#2 /Applications/XAMPP/xamppfiles/htdocs/systems/cakephp/SIREQ/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2018-07-19 00:24:15 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /systems/cakephp/SIREQ/js/Editores/CKEditor/ckeditor4.3.3standard/config.js?t=E1PE
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/systems/cakephp/SIREQ/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2018-07-19 00:24:15 Error: [MissingControllerException] Controller class ThemesController could not be found.
+Exception Attributes: array (
+  'class' => 'ThemesController',
+  'plugin' => NULL,
+)
+Request URL: /systems/cakephp/SIREQ/themes/uadmin/2.1/img/jquery.chosen/chosen-sprite.png
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/systems/cakephp/SIREQ/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2018-07-19 00:24:15 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /systems/cakephp/SIREQ/js/Editores/CKEditor/ckeditor4.3.3standard/skins/moono/editor.css?t=E1PE
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/systems/cakephp/SIREQ/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2018-07-19 00:24:15 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /systems/cakephp/SIREQ/js/Editores/CKEditor/ckeditor4.3.3standard/lang/es.js?t=E1PE
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/systems/cakephp/SIREQ/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2018-07-19 00:26:24 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /systems/cakephp/SIREQ/js/Editores/CKEditor/ckeditor4.3.3standard/skins/moono/editor.css?t=E1PE
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/systems/cakephp/SIREQ/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2018-07-19 00:27:08 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /systems/cakephp/SIREQ/js/Editores/CKEditor/ckeditor4.3.3standard/ckeditor.js
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/systems/cakephp/SIREQ/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2018-07-19 00:27:09 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /systems/cakephp/SIREQ/js/Editores/CKEditor/ckeditor4.3.3standard/ckeditor.js
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/systems/cakephp/SIREQ/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2018-07-19 00:27:09 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /systems/cakephp/SIREQ/js/Editores/CKEditor/ckeditor4.3.3standard/ckeditor.js
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/systems/cakephp/SIREQ/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2018-07-19 00:27:10 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /systems/cakephp/SIREQ/js/Editores/CKEditor/ckeditor4.3.3standard/ckeditor.js
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/systems/cakephp/SIREQ/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2018-07-19 00:27:10 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /systems/cakephp/SIREQ/js/Editores/CKEditor/ckeditor4.3.3standard/img/favicon.ico
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/systems/cakephp/SIREQ/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2018-07-19 00:27:58 Error: [MissingControllerException] Controller class ThemesController could not be found.
+Exception Attributes: array (
+  'class' => 'ThemesController',
+  'plugin' => NULL,
+)
+Request URL: /systems/cakephp/SIREQ/themes/uadmin/2.1/img/jquery.chosen/chosen-sprite.png
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/systems/cakephp/SIREQ/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2018-07-19 12:02:36 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /systems/cakephp/SIREQ/css/fonts/Roboto/Roboto-Regular.woff
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/systems/cakephp/SIREQ/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2018-07-19 12:02:37 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /systems/cakephp/SIREQ/css/fonts/Roboto/Roboto-Regular.ttf
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/systems/cakephp/SIREQ/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}

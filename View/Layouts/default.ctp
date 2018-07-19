@@ -107,7 +107,7 @@ echo $this->Html->script(array(
           '../themes/uadmin/2.1/js/bootstrap3.3.1',
           '../themes/uadmin/1.6/js/plugins.1-6',
           '../themes/uadmin/1.6/js/main.1-6-1',
-          'Editores/CKEditor/ckeditor4.3.3standard/ckeditor',
+          '../themes/uadmin/Editores/CKEditor/ckeditor4.3.3standard/ckeditor',
           '../themes/uadmin/jgritter/js/jquery.gritter.min',
           '../themes/uadmin/2.1/js/modernizr-responsive'
 ));

@@ -1,4 +1,0 @@
-.wrapper_autocomplete{width: 400px;margin: 0 auto;}
-input#name{border-radius:8px; box-shadow: 2px 2px 6px #777; border:1px solid #EFEFEF;}
-input#name:focus{background: #FFFFCC;}
-.desc{clear:both;}

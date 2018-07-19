@@ -90,8 +90,7 @@ class DATABASE_CONFIG {
 	**/
 	public $default = array(
 		'datasource' => 'Database/Mysql',
-		'persistent' => false,
-		// 'host' => '187.190.62.102',
+		'persistent' => false,		
 		'host' => 'localhost',
 		'login' => 'puyet',
 		'password' => 'erslimslim',
@@ -103,8 +102,7 @@ class DATABASE_CONFIG {
 
 	public $seconddb = array(
 		'datasource' => 'Database/Mysql',
-		'persistent' => false,
-		// 'host' => '187.190.62.102',
+		'persistent' => false,		
 		'host' => 'localhost',
 		'login' => 'puyet',
 		'password' => 'erslimslim',
